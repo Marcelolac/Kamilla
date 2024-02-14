@@ -90,7 +90,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #767776;
+  background: #25d366;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -448,6 +448,25 @@ h6 {
   color: #6f6f6f;
   margin: 10px 0 0 0;
   font-size: 22px;
+}
+
+.btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 0px;
+  color: #fff;
+  background: #ee677d;
+}
+
+.btn-about:hover {
+  background: #3dc8b7;
 }
 
 #hero .btn-about {
