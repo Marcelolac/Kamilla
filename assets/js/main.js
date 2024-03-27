@@ -82,7 +82,10 @@
 
   /**
    * Mobile nav dropdowns activate
+   * 
    */
+
+
   on('click', '.navbar .dropdown > a', function(e) {
     if (select('#navbar').classList.contains('navbar-mobile')) {
       e.preventDefault()
@@ -103,6 +106,8 @@
         let navbarToggle = select('.mobile-nav-toggle')
         navbarToggle.classList.toggle('bi-list')
         navbarToggle.classList.toggle('bi-x')
+        
+        
       }
       scrollto(this.hash)
     }
